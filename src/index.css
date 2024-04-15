@@ -1,0 +1,56 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0 auto;
+  /*
+    We need this property because the slide-in element is hiding all the way to the right
+    without this, we would be able to scroll all the way to the right. This property basically ignores anything that overflows.
+    Take this off and try it yourself.
+  */
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #666;
+}
+
